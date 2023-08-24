@@ -7,7 +7,7 @@ import Work from "../components/work";
 const Home = () => {
   return (
     <div>
-      <div className='h-screen'>
+      <div className='h-full'>
         <div>
             <img  src={background} alt=""/>
         </div>
@@ -16,7 +16,7 @@ const Home = () => {
           <p className='pt-2 pb-6 '>Welcome to My Web Page</p>
           <p>On this page, you'll find everything you need to know about me and my work.</p>
         </div>
-        <div>
+        <div className=' sticky top-0 z-10'>
           <Navbar/>
         </div>
         <div>

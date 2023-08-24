@@ -8,11 +8,11 @@ const Contact = () => {
       <div>
         <Navbar />
       </div>
-      <div className='flex flex-col h-full   items-center my-10'>
+      <div className='flex flex-col  h-full   items-center my-10'>
         <div>
           <h1 className='text-3xl font-semibold'>Contact me</h1>
         </div>
-        <div className='flex justify-center   w-full my-10 gap-3'>
+        <div className='grid    lg:grid-cols-4   sm:grid-cols-2    my-10 gap-3'>
           <div className='border p-10 w-80 flex flex-col justify-center items-center  bg-blue-400 '>
             <FaMapMarkerAlt size={34} />
             <p className='text-center text-2xl'>Location</p>
