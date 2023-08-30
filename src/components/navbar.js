@@ -12,7 +12,7 @@ const Navbar = () => {
           <Link className='hover:bg-gray-600 hover:text-white flex items-center  h-full' to="/projects">Projects</Link>
         </li>
         <li className='h-full'>
-          <Link className='hover:bg-gray-600 hover:text-white flex items-center px-4 h-full' to="/contact">Contact</Link>
+          <Link className='hover:bg-gray-600 hover:text-white flex items-center px-1 h-full' to="/contact">Contact</Link>
         </li>
       </ul>
     </nav>
