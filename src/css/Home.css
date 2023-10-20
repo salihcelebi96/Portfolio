@@ -1,0 +1,29 @@
+.topping {
+    width: 100vw;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .bolder {
+    font-weight: 500;
+    letter-spacing: 0.3rem;
+    font-size: 2rem;
+  }
+  .hello,
+  .bolder,
+  .wellcome {
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.3rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .upword {
+      font-size: 1.3rem;
+    }
+    .hello{
+        font-size: 1.5rem;
+    }
+  }
