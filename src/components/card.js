@@ -14,13 +14,13 @@ const ProjectGallery = () => {
     setShowInfo(null);
   };
 
-  const reverseScreenData = screenData.sort((a, b) => b.index - a.index);
+  
 
 
   return (
     <div>
       <div className="project-list overflow-hidden  grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 mx-3 my-5">
-        {reverseScreenData.map((project, index) => (
+        {screenData.map((project, index) => (
           <Card
             key={index}
             className="project-card border rounded-lg relative flex justify-center bg-gray-800 gap-10 text-white"
