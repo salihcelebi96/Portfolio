@@ -25,7 +25,7 @@ const vercelUrls = [
   "https://notes-app-eta-vert.vercel.app/",
   "https://hospital-appointment-two.vercel.app/",
   "https://book-app-rjz6.vercel.app/",
-  "https://pizza-clone-rsrl.vercel.app/"
+  "https://pizza-clone.vercel.app/",
 ];
 
 const Tools =[
