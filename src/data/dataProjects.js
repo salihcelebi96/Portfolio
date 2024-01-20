@@ -11,7 +11,7 @@ import tictactoe from "../assets/screens/tictactoescreen.png";
 import notes from "../assets/screens/notesScreen.png";
 import hospital from "../assets/screens/hospitalScreen.png";
 import book from "../assets/screens/bookAppScreen.png";
-import pizzaHut from "../assets/screens/pizzaHutScreen.png";
+import pizzaHut from "../assets/screens/pizzaHutScreen.png";  
 
 const vercelUrls = [
   "https://rent-a-car-phi.vercel.app/",
