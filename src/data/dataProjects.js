@@ -77,16 +77,16 @@ const sourceCode = [
 
 
 export const screenData = [
-  { name: "Rent a car", image: rentscreen, url: vercelUrls[0], tools: Tools[0], info: Info[0], sourceCode: sourceCode[0] },
+ 
   { name: "Security Site", image: corporate, url: vercelUrls[1], tools: Tools[1], info: Info[1], sourceCode: sourceCode[1] },
   { name: "Graphic", image: graphic, url: vercelUrls[2], tools: Tools[2], info: Info[2], sourceCode: sourceCode[2] },
-  { name: "Quiz", image: quiz, url: vercelUrls[3], tools: Tools[3], info: Info[3], sourceCode: sourceCode[3] },
   { name: "Weather Api", image: weather, url: vercelUrls[4], tools: Tools[4], info: Info[4], sourceCode: sourceCode[4] },
-  { name: "Movie App", image: movie, url: vercelUrls[5], tools: Tools[5], info: Info[5], sourceCode: sourceCode[5] },
-  { name: "E-Shopping App", image: ticaret, url: vercelUrls[6], tools: Tools[6], info: Info[6], sourceCode: sourceCode[6] },
   { name: "Tic-Tac-Toe Game", image: tictactoe, url: vercelUrls[7], tools: Tools[7], info: Info[7], sourceCode: sourceCode[7] },
   { name:"Notes App", image:notes, url: vercelUrls[8],tools: Tools[8], info: Info[8], sourceCode: sourceCode[8]},
   { name:"Hospital App", image:hospital, url: vercelUrls[9],tools: Tools[9], info: Info[9], sourceCode: sourceCode[9]},
+  { name: "Movie App", image: movie, url: vercelUrls[5], tools: Tools[5], info: Info[5], sourceCode: sourceCode[5] },
+  { name: "E-Shopping App", image: ticaret, url: vercelUrls[6], tools: Tools[6], info: Info[6], sourceCode: sourceCode[6] },
+  { name: "Rent a car", image: rentscreen, url: vercelUrls[0], tools: Tools[0], info: Info[0], sourceCode: sourceCode[0] },
   {name: "Book App",image:book, url:vercelUrls[10],tools: Tools[10], info: Info[10], sourceCode: sourceCode[10]},
   {name: "PizzaHut App",image:pizzaHut, url:vercelUrls[11],tools: Tools[11], info: Info[11], sourceCode: sourceCode[11]},
 ];
